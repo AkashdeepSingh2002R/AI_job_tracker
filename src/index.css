@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { @apply text-gray-900; }
+main { padding-top: 4.5rem; } /* offset for fixed header */
+body {
+  padding-top: 4rem; /* pushes dashboard below fixed navbar */
+}
